@@ -1,3 +1,17 @@
-.red-bg {
-  backround-color: pink;
+p {
+    color: pink;
+}
+
+.font24 {
+    font-size: 24px;
+}
+
+#id1 {
+    color: blue;
+    font-size: 36px;
+}
+
+#id2 {
+    background-color: lightgreen;
+    font-weight: bold;
 }
