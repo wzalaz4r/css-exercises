@@ -1,9 +1,9 @@
 /* Add CSS Styling */
-.proportioned img {
+.avatar.proportioned img {
     width: 300px;
     height: 300px;
 }
-.distorted img {
+.avatar.distorted img {
     width: 200px;
     height: 400px;
 }
