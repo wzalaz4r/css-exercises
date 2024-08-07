@@ -1,9 +1,9 @@
 /* Add CSS Styling */
-.proportioned {
+.proportioned img {
     width: 300px;
     height: 300px;
 }
-.distorted {
+.distorted img {
     width: 200px;
     height: 400px;
 }
