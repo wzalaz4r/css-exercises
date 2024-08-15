@@ -18,7 +18,7 @@ body {
 
 .sidebar {
   width: 300px;
-  background: royalblue;
+  background:royalblue;
   box-sizing: border-box;
 }
 
@@ -26,4 +26,60 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+/* solution */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+}
+
+.container {  
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  flex-shrink: 0;
+  padding: 16px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 48px;
+}
+
+.card {
+  /* max-height: fit-content; */
+  flex: 0 0 300px;
+  margin: 7px;
+  padding: 7px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

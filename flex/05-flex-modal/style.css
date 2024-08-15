@@ -39,7 +39,7 @@ body {
   background: #eee;
   border-radius: 50%;
   color: #888;
-  font-weight: 400;
+  font-weight: 900;
   font-size: 16px;
   height: 24px;
   width: 24px;
@@ -48,6 +48,7 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  align-self: flex-end;
 }
 
 button {
@@ -66,4 +67,33 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.modal {
+  display: flex;
+}
+
+.icon {
+  margin: .9rem;
+  padding: 0 1.1rem;
+}
+
+.container {
+  padding: .9rem .9rem .9rem 0;
+}
+
+#top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.text {
+  font-size: 1rem;
+  margin: 1rem 0;
 }
